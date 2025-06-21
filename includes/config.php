@@ -8,14 +8,20 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Simple PHP Website',
+        'name' => 'My First PHP Website',
         'site_url' => '',
-        'pretty_uri' => false,
+        'pretty_uri' => true,
         'nav_menu' => [
             '' => 'Home',
             'about-us' => 'About Us',
             'products' => 'Products',
             'contact' => 'Contact',
+            'layout' => 'Layout',
+        ],
+        'headline'=> [
+            'headline-1' => 'Headline 1',
+            'headline-2' => 'Headline 2',
+            'headline-3' => 'Headline 3',
         ],
         'template_path' => 'template',
         'content_path' => 'content',

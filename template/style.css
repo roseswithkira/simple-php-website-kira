@@ -1,13 +1,28 @@
-
 .wrap { 
     padding: 25px; 
     text-align: center; 
-    box-shadow: 0 4px 25px -4px #9da5ab; 
+    box-shadow: 0 4px 25px -4px #5386ab; 
+    background-color: rgb(48, 7, 7);
+    color: white;
 }
 article { 
     padding: 25px 0; 
     line-height: 150%; 
     text-align: left; 
+}
+.content { 
+    background: #222; 
+    color: white; 
+    padding: 20px; 
+    border-radius: 10px;
+}
+
+headline {
+    padding: 25px 0; 
+    line-height: 150%; 
+    text-align: left; 
+    color: #ffffff;
+    font-size: 20px;
 }
 
 nav .item {
@@ -27,4 +42,3 @@ nav .active {
         padding: 30px 40px;
     }
 }
-    

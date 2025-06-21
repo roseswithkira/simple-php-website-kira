@@ -9,19 +9,22 @@
 </head>
 <body>
 <div class="wrap">
-
+<img src="pngtree-career-woman-illustration-png-image_2898496.jpg"	
     <header>
         <h1><?php site_name(); ?></h1>
         <nav class="menu">
             <?php nav_menu(); ?>
         </nav>
     </header>
-
     <article>
         <h2><?php page_title(); ?></h2>
         <?php page_content(); ?>
+        <headline>
+            <?php headline_print(); ?>
+        </headline>
     </article>
 
+    
     <footer>
         <small>&copy;<?php echo date('Y'); ?> <?php site_name(); ?>.<br><?php site_version(); ?></small>
     </footer>
