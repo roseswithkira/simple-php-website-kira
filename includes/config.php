@@ -8,29 +8,32 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'My First PHP Web',
+        'name' => 'Personal Portfolio', 
         'site_url' => '',
         'pretty_uri' => true,
         'nav_menu' => [
-            '' => 'Home',
-            'about-us' => 'About Us',
-            'products' => 'Products',
+            'home' => 'Home',
+            'about-me' => 'About Me',
+            'project' => 'Project',
+            'work-experience' => 'Work Experience',
             'contact' => 'Contact',
-            'layout' => 'Layout',
         ],
         // Combine headline_title and headline_img into one 'headlines' array
         'headlines' => [
-            'headline-1' => [
-                'title' => 'Headline 1',
-                'img'   => 'headline-1-img.jpg',
+            'pt-ramayana' => [
+                'title' => 'Pt ramayana',
+                'img'   => 'pt-ramayana-img.jpg',
+                'url'   => '/article/headline-1',
             ],
-            'headline-2' => [
-                'title' => 'Headline 2',
-                'img'   => 'headline-1-img.jpg',
+            'toko-aksesoris' => [
+                'title' => 'Toko aksesoris',
+                'img'   => 'toko-aksesoris-img.png',
+                'url'   => '/article/headline-2',
             ],
-            'headline-3' => [
-                'title' => 'Headline 3',
-                'img'   => 'headline-1-img.jpg',
+            'mm-acing-jaya' => [
+                'title' => 'Mm acing jaya',
+                'img'   => 'mm-acing-jaya-img.jpg',
+                'url'   => '/article/headline-3',
             ],
         ],
 

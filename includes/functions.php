@@ -53,8 +53,8 @@ function headline_print()
         $img_url = config('site_url') . '/' . config('content_path') . '/img/' . $data['img'];
         $headline_print .= '<div class="headline-item">';
         $headline_print .= '<img src="' . $img_url . '" width="150" height="100">';
-        $headline_print .= '<div>' . $data['title'] . '</div>';
-        $headline_print .= '</div>';
+        $headline_print .= '<div><a href="' . $data['url'] . '">' . $data['title'] . '</a></div>';
+        $headline_print .= '</div>'; 
     }
 
     echo trim($headline_print);

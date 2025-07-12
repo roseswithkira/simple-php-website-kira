@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
     font-size: 16px;
-    background-color: #230202;
+    background-color: #9c2d25;
     margin: 0;
     padding: 0;
 }
@@ -10,13 +10,13 @@ body {
     padding: 25px; 
     text-align: center; 
     box-shadow: 0 4px 25px -4px #210202; 
-    background-color: #410505;
+    background-color: #ecc000;
 }
 article { 
     padding: 25px 0; 
     line-height: 150%; 
     text-align: left; 
-    color: #fff;
+    color: #1d2225;
     font-size: 20px;
 }
 
@@ -24,10 +24,10 @@ article {
     display: inline-block;
     vertical-align: top;
     margin: 10px;
-    background: #222;
+    background: #E06234;
     padding: 20px;
     border-radius: 6px;
-    color: #fff;
+    color: #E06234;
 }
 
 nav .item {

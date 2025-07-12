@@ -27,7 +27,11 @@
 
 
     <footer>
-        <small>&copy;<?php echo date('Y'); ?> <?php site_name(); ?>.<br><?php site_version(); ?></small>
+        <small>
+            <?php echo config('name'); ?> &copy; <?php echo date('Y'); ?> |
+            <?php echo implode(', ', config('nav_menu')); ?> |
+            <?php echo config('version'); ?>
+        </small>
     </footer>
 
 </div>
